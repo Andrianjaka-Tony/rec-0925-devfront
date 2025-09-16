@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Custom candidate route: /andrianjaka-paiement
+Route::view('/andrianjaka-completez-votre-reservation', 'pages.completer');
+Route::view('/andrianjaka-paiement', 'pages.paiement');

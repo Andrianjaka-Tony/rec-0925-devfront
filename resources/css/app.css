@@ -1,4 +1,9 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../**/*.blade.php';
 @source '../**/*.js';
+
+:root {
+    --text-blue: #36578a;
+    --background: #f2f3f5;
+}
