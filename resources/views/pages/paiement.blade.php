@@ -30,9 +30,9 @@
           <div>
             <h2 class="text-xl font-bold">Vos informatioons personnelles</h2>
             <div class="mt-3 flex flex-col gap-2">
-              <input class="px-3 h-10 text-sm bg-[#00000029]/20 rounded outline-none" placeholder="Nom Prénom" />
-              <input class="px-3 h-10 text-sm bg-[#00000029]/20 rounded outline-none" placeholder="Email" />
-              <input class="px-3 h-10 text-sm bg-[#00000029]/20 rounded outline-none" placeholder="Numéro de téléphone" />
+              <input class="px-3 h-10 text-sm bg-[#00000029]/20 rounded outline-none border-2 border-[transparent] focus:border-[#BF2A6B] duration-200" placeholder="Nom Prénom" />
+              <input class="px-3 h-10 text-sm bg-[#00000029]/20 rounded outline-none border-2 border-[transparent] focus:border-[#BF2A6B] duration-200" placeholder="Email" />
+              <input class="px-3 h-10 text-sm bg-[#00000029]/20 rounded outline-none border-2 border-[transparent] focus:border-[#BF2A6B] duration-200" placeholder="Numéro de téléphone" />
             </div>
           </div>
           <div class="bg-[#00000029] w-full h-[1px]"></div>
@@ -50,14 +50,14 @@
               </div>
             </div>
             <div class="flex items-center gap-3">
-              <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-icon lucide-calendar"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+              <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-icon lucide-clock"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/></svg>
               <div>
                 <p class="font-semibold">Horaire</p>
                 <p class="-mt-0.5">12:30</p>
               </div>
             </div>
             <div class="flex items-center gap-3">
-              <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-icon lucide-calendar"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+              <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-xinside-icon lucide-map-pin-x-inside"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><path d="m14.5 7.5-5 5"/><path d="m9.5 7.5 5 5"/></svg>
               <div>
                 <p class="font-semibold">Adresse</p>
                 <p class="-mt-0.5">39 Rue Emile Steiner, 27200 vernon</p>
@@ -94,7 +94,7 @@
           </div>
         </div>
 
-        <button class="mt-8 inline-flex justify-center items-center gap-2 px-10 py-3 rounded-lg bg-[#BF2A6B] text-white font-semibold shadow-md">
+        <button class="mt-8 inline-flex justify-center items-center gap-2 px-10 py-3 rounded-lg bg-[#BF2A6B] hover:bg-[#921d50] cursor-pointer duration-200 text-white font-semibold shadow-md">
           Je réserve mon test psychotechnique
           <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L12.586 11H3a1 1 0 110-2h9.586L7.293 4.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
         </button>

@@ -140,7 +140,7 @@
                         <div class="text-sm mt-1">Total</div>
                         <div class="text-2xl font-semibold">135€</div>
                     </div>
-                    <button class="inline-flex items-center gap-2 px-10 py-3 rounded-lg bg-[#BF2A6B] text-white font-semibold shadow-md">
+                    <button class="inline-flex items-center gap-2 px-10 py-3 rounded-lg bg-[#BF2A6B] hover:bg-[#921d50] cursor-pointer duration-200 text-white font-semibold shadow-md">
                         Suivant
                         <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L12.586 11H3a1 1 0 110-2h9.586L7.293 4.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
                     </button>
